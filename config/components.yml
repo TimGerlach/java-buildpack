@@ -30,9 +30,10 @@ containers:
 # Please see the documentation for more detail.
 jres:
 # - "JavaBuildpack::Jre::IbmJRE"
-  - "JavaBuildpack::Jre::OpenJdkJRE"
+# - "JavaBuildpack::Jre::OpenJdkJRE"
 # - "JavaBuildpack::Jre::OracleJRE"
 # - "JavaBuildpack::Jre::ZuluJRE"
+- "JavaBuildpack::Jre::SapMachineJRE"
 
 # Frameworks are processed in order.
 # The MultiBuildpack framework is first in order to allow any framework to override contributions from earlier buildpacks
